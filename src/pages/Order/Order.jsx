@@ -78,25 +78,24 @@ export default function Order() {
     const ID_ORDER = `#${singleData.id}HC${singleData.id * 2}DV`;
 
     const newOrderMessage = `
-      Номер заказа: ${ID_ORDER}
-      Адрес: ${orders.city} - ${orders.district}
-      House: ${orders.house}
-      Entrance: ${orders.entrance}
-      Apartment: ${orders.apartment}
-      Number: ${orders.number}
+      Номер заказа: ${ID_ORDER}\n
+      Адрес: ${orders.city} - ${orders.district}\n
+      House: ${orders.house}\n
+      Entrance: ${orders.entrance}\n
+      Apartment: ${orders.apartment}\n
+      Number: ${orders.number}\n
 
-      Product name: ${singleData.title}
+      Product name: ${singleData.title}\n
 
-      Тип оплаты: Наличный
+      Тип оплаты: Наличный\n
 
-      Товары: $${singleData.price}
-      Доставка: $5
-      Итого: $${singleData.price + 5}
+      Товары: $${singleData.price}\n
+      Доставка: $5\n
+      Итого: $${singleData.price + 5}\n
 
-      Ваш заказ № ${ID_ORDER} оформлен.
-      На указанный Вами номер, в ближайшее время будет выставлен счёт.
-      Расчетное время доставки заказа 45 минут с момента оплаты счета.
-      
+      Ваш заказ № ${ID_ORDER} оформлен.\n
+      На указанный Вами номер, в ближайшее время будет выставлен счёт.\n
+      Расчетное время доставки заказа 45 минут с момента оплаты счета.\n
       `;
 
     if (
